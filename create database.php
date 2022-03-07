@@ -3,8 +3,8 @@
    <body>
       <?php
          $dbhost = 'localhost';
-         $dbuser = '21mca046';
-         $dbpass = '2703';
+         $dbuser = '21mca001';
+         $dbpass = '2251';
          $mysqli = new mysqli($dbhost, $dbuser, $dbpass);
          
          if($mysqli->connect_errno ) {
@@ -23,3 +23,4 @@
       ?>
    </body>
 </html>
+
